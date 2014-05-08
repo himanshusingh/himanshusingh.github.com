@@ -1,0 +1,92 @@
+h1,h2,h3 {
+   font-family: 'Lustro', 'serif';
+}
+
+.container {
+  margin: 0px auto;
+  max-width: 840px;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.headline {
+  font-weight: 400;
+  letter-spacing: 1px;
+  color: #222;
+  font-size: 4em;
+  padding-top: 16px;
+  margin-top: 32px;
+}
+
+.first-letter {
+  color: #000;
+}
+
+p {
+  font-family: 'Lato', 'sans-serif';
+}
+
+.about p {
+  font-size: 24px;
+}
+
+a {
+  color: #4b6adb;
+  text-decoration: none;
+}
+
+#my-pic {
+  height: 128px;
+  float: left;
+  border-radius: 32px;
+  margin-right: 12px;
+}
+
+.social-links {
+  float: right;
+}
+
+.logo {
+  height: 36px;
+}
+
+.logo:hover {
+  cursor: pointer;
+  transform:scale(1.2);
+  -ms-transform:scale(1.2); /* IE 9 */
+  -moz-transform:scale(1.2); /* Firefox */
+  -webkit-transform:scale(1.2); /* Safari and Chrome */
+  -o-transform:scale(1.2); /* Opera */
+}
+
+.horizontal-rule {
+    border: 0;
+    height: 1px;
+    background: #333;
+    background-image: -webkit-linear-gradient(left, #ccc, #333, #ccc); 
+    background-image:    -moz-linear-gradient(left, #ccc, #333, #ccc); 
+    background-image:     -ms-linear-gradient(left, #ccc, #333, #ccc); 
+    background-image:      -o-linear-gradient(left, #ccc, #333, #ccc); 
+}
+
+@media screen and (max-width: 480px) {
+  .headline {
+    font-size: 1.8em;
+    white-space: nowrap;
+    padding-top: 24px;
+  }
+  #my-pic {
+    height: 72px;
+  }
+}
+
+@media screen and (max-width: 740px) and (min-width: 480px) {
+  .headline {
+    font-size: 3em;
+    white-space: nowrap;
+    padding-top: 20px;
+  }
+  #my-pic {
+    height: 96px;
+  }
+}
